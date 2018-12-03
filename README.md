@@ -46,5 +46,5 @@ You can enable Python3 interface with pip:
 let g:fcc#catkin_ws = <your workspace path>
 " The number of recursive
 let g:fcc#nest_num = 5
-nmap <Leader><C-p> :<C-u>FindCompileCommands<CR>
+nmap <Leader>cp :FindCompileCommands<CR>
 ```

@@ -13,6 +13,7 @@ For vim-plug
 if has('nvim')
   Plug 'arwtyxouymz/fcc.nvim', { 'do': ':UpdateRemotePlugins' }
 endif
+``````
 
 For dein.vim
 
@@ -43,6 +44,7 @@ You can enable Python3 interface with pip:
 ```vim
 " Settings catkin_ws.
 let g:fcc#catkin_ws = <your workspace path>
-let g:fcc#nest_num = 5  " the number of recursive
+" The number of recursive
+let g:fcc#nest_num = 5
 nmap <Leader><C-p> :<C-u>FindCompileCommands<CR>
 ```
